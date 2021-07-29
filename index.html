@@ -13,9 +13,9 @@
 <body>
     <!-- header start -->
     <header>
-        <section class="container bg-info d-flex align-items-center">
+        <section class="container bg-info  my-5">
 
-            <div class="row ">
+            <div class="row d-flex align-items-center ps-5 ">
                 <div class="col-lg-6 align-item">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
@@ -34,13 +34,13 @@
     <!-- header end -->
     <main>
         <!-- featuered bikes  -->
-        <section>
+        <section class="container text-center">
             <h1>Fetured Bikes 2021</h1>
             <p>Best bike collection</p>
             <hr>
         </section>
         <!-- featured bikes images  -->
-        <section class="container">
+        <section class="container my-5">
 
             <div class="row gx-4 d-flex align-items-center">
                 <div class="col-lg-4">
@@ -57,8 +57,8 @@
 
         </section>
         <!-- happy clients comments  -->
-        <section class="container">
-            <h1>Happy <span>Clients says</span> </h1>
+        <section class="container my-5">
+            <h1 class="text-center">Happy <span>Clients says</span> </h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
@@ -110,11 +110,144 @@
             </div>
         </section>
         <!-- happy clients comments end -->
-        <section class="container">
-            <div class="row row-cols-2">
-                <div class="col">Column</div>
-                <div class="col">Column</div>
+        <section class="container my-5">
+            <h1 class="text-center">Frequently Asked<span>Quentions</span></h1>
+            <div class="row d-flex">
+                <div class="col-lg-6">
+                    <img style="width: 424px;height: 398px;" src="images/faq.png" alt="">
+                </div>
+                <div class="col">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+        </section>
+        <!-- table formation  -->
+        <section class="container my-5">
+            <h1 class="text-center text-white bg-success">Our some featured products</h1>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Serial</th>
+                        <th scope="col">Model No</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Warenty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Honda CBR 150R 2021
+                        </td>
+                        <td>Tk 538,000.00</td>
+                        <td>
+                            3 years
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Honda CB Hornet 160R ABS</td>
+                        <td>Tk 255,000.00
+                        </td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Honda CB Hornet 160R CBS</td>
+                        <td>Tk 189,900.00
+                        </td>
+                        </td>
+                        <td>2 years</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- table ends  -->
+        <section class="container my-5">
+            <h3>Dear visitor</h3>
+            <p>Thank you for visiting our site. <br>
+                We respect your valuable time but for future purposes we want to take some suggession in below:
+            </p>
+            <div class="row mb-3">
+                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+                </div>
+            </div>
+            <div class="row">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Suggession</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="">
+                </div>
+            </div>
+            <button class="btn btn-warning">Submit</button>
 
         </section>
     </main>
