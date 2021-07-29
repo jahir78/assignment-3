@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+    <script src="https://kit.fontawesome.com/05e5110864.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,21 +14,31 @@
 <body>
     <!-- header start -->
     <header>
-        <section class="container bg-info  my-5">
+        <section class="container header-bg-info  my-5 ">
 
-            <div class="row d-flex align-items-center ps-5 ">
-                <div class="col-lg-6 align-item">
-                    <p>Computer-controlled digital transistorized with electronic advance</p>
-                    <h1>Honda CBR 300R</h1>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="btn btn-warning">purchase</button>
-                </div>
-                <div class="col-lg-6">
-                    <img src="images/header-bike.png" alt="">
-                </div>
+            <div class=" row d-flex align-items-center p-5 ">
+                <div class=" col-lg-6 col-12">
+                    <p class="paragraph-bg"><small>
+                            Computer-controlled digital transistorized with electronic advance
+                        </small></p>
+                    <h1 class="text-white">Honda CBR 300R</h1>
+                    <p class="paragraph-bg">
+                        <small>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint.
+                            Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </small>
+                    </p>
+                    <button class=" btn btn-danger text-white ">
+                        purchase</button>
+                    < </div>
+                        <div class=" col-lg-6 col-12 header-bike">
+                            <img src="images/rsz_header-bike.png" alt="">
+                        </div>
 
-            </div>
+
+                </div>
 
         </section>
     </header>
@@ -36,7 +47,7 @@
         <!-- featuered bikes  -->
         <section class="container text-center">
             <h1>Fetured Bikes 2021</h1>
-            <p>Best bike collection</p>
+            <p class="span-color">Best bike collection</p>
             <hr>
         </section>
         <!-- featured bikes images  -->
@@ -44,13 +55,15 @@
 
             <div class="row gx-4 d-flex align-items-center">
                 <div class="col-lg-4">
-                    <img style="height: 243px; width:288px ;" src="images/feature-bike.jpg" alt="">
+                    <img style="height: 243px; width:288px ;" src="images/feature-bike.jpg" class="grayscale-bike"
+                        alt="">
                 </div>
                 <div class="col-lg-4">
                     <img style="height: 243px; width:288px ;" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-lg-4">
-                    <img style="height: 243px; width:288px ;" src="images/feature-bike.jpg" alt="">
+                    <img style="height: 243px; width:288px ;" src="images/feature-bike.jpg" class="grayscale-bike"
+                        alt="">
                 </div>
 
             </div>
@@ -58,51 +71,58 @@
         </section>
         <!-- happy clients comments  -->
         <section class="container my-5">
-            <h1 class="text-center">Happy <span>Clients says</span> </h1>
+            <h1 class="text-center">Happy <span class="span-color">Clients says</span> </h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-100">
-                        <img style="height: 149px; width:149px ;" src="images/user-1.png" class="card-img-top"
+                    <div class="card h-100 d-flex align-items-center justify-content-center ">
+                        <img style="height: 149px; width:149px ;" src="images/user-1.png" class="card-img-top pt-4"
                             alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Regina Miles</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="">
-                            <p>Banker</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img style="height: 149px; width:149px ;" src="images/user-2.png" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Regina Miles</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
-                        </div>
-                        <div class="">
-                            <p>Banker</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img style="height: 149px; width:149px ;" src="images/user-3.jpg" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Slate helps you see how
+                            <p class="card-text ps-2">Slate helps you see how
                                 many more days you need
                                 to work to reach your financial
                                 goal for the month and year.</p>
-                            <h5 class="card-title">Regina Miles</h5>
+
+                            <h6 class="card-title text-center text-info">Regina Miles</h6>
+                        </div>
+                        <div class="">
+                            <p class="text-center">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex align-items-center justify-content-center">
+                        <img style="height: 149px; width:149px ;" src="images/user-2.png" class="card-img-top pt-4"
+                            alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text ps-2">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.
+                            </p>
+                            <h6 class="card-title text-center text-info">Regina Miles</h6>
+                        </div>
+                        <div class="">
+                            <p class="text-center">Banker</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex align-items-center justify-content-center">
+                        <img style="height: 149px; width:149px ;" src="images/circle-cropped.png"
+                            class="card-img-top pt-4" alt="...">
+                        <div class="card-body">
+                            <p class="card-text ps-2">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <h6 class="card-title text-center text-info">Regina Miles</h6>
 
                         </div>
                         <div class="">
-                            <p>Banker</p>
+                            <p class="text-center">Banker</p>
 
                         </div>
                     </div>
@@ -111,7 +131,7 @@
         </section>
         <!-- happy clients comments end -->
         <section class="container my-5">
-            <h1 class="text-center">Frequently Asked<span>Quentions</span></h1>
+            <h1 class="text-center">Frequently Asked<span class="span-color"> Quentions</span></h1>
             <div class="row d-flex">
                 <div class="col-lg-6">
                     <img style="width: 424px;height: 398px;" src="images/faq.png" alt="">
@@ -123,18 +143,16 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                     aria-controls="panelsStayOpen-collapseOne">
-                                    Accordion Item #1
+                                    What are the most important things I should
+                                    know about riding a bike?
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="panelsStayOpen-headingOne">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider.
                                 </div>
                             </div>
                         </div>
@@ -143,18 +161,18 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseTwo">
-                                    Accordion Item #2
+                                    How can I tell if my helmet is old and I need a
+                                    new one?
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="panelsStayOpen-headingTwo">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Bear in mind that if the helmet did its job most people would tell you that they did
+                                    not even hit their head, or did not hit their head that hard. And the thin shells on
+                                    most helmets now tend to hide any dents in the foam. But if you can see marks on the
+                                    shell or measure any foam crush at all, replace the helmet.
+
                                 </div>
                             </div>
                         </div>
@@ -162,19 +180,17 @@
                             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseThree">
-                                    Accordion Item #3
+                                    aria-controls="panelsStayOpen-collapseThree">My bike has been in storage is it safe
+                                    to ride?
+
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="panelsStayOpen-headingThree">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Leaving your bike outside for a day or two won't do major damage. You may see signs
+                                    of rust after a week of neglect. After one month in bad conditions, your beloved
+                                    bike parts will start to degrade.
                                 </div>
                             </div>
                         </div>
@@ -186,7 +202,7 @@
         <!-- table formation  -->
         <section class="container my-5">
             <h1 class="text-center text-white bg-success">Our some featured products</h1>
-            <table class="table table-hover">
+            <table class="table table-hover border border-1">
                 <thead>
                     <tr>
                         <th scope="col">Serial</th>
@@ -214,7 +230,7 @@
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td colspan="2">Honda CB Hornet 160R CBS</td>
+                        <td>Honda CB Hornet 160R CBS</td>
                         <td>Tk 189,900.00
                         </td>
                         </td>
@@ -224,6 +240,7 @@
             </table>
         </section>
         <!-- table ends  -->
+        <!-- suggession box start  -->
         <section class="container my-5">
             <h3>Dear visitor</h3>
             <p>Thank you for visiting our site. <br>
@@ -238,7 +255,7 @@
             <div class="row mb-3">
                 <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
-                    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+                    <input type="email" class="form-control" id="colFormLabel" placeholder="">
                 </div>
             </div>
             <div class="row">
@@ -247,8 +264,29 @@
                     <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="">
                 </div>
             </div>
-            <button class="btn btn-warning">Submit</button>
+            <div>
+                <button class="btn btn-danger text-center button-style text-white">Submit</button>
 
+            </div>
+        </section>
+        <section class="container">
+            <div class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!-- javascript link  -->

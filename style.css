@@ -1,0 +1,37 @@
+/* font stles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left:0px;
+    padding:0px ;
+    background: #E5E5E5;  
+}
+.span-color{
+    color: #E76F51;
+}
+h1{
+    padding:15px 0px;
+}
+.header-bg-info{
+    background: #264653;
+}
+.paragraph-bg{
+    color: #E0E0E0
+    ;
+}
+.header-bike{
+    
+    
+}
+/* image grascale  */
+.grayscale-bike{
+    filter: grayscale();
+}
+/* button styles */
+.button-style{
+    margin-left: 500px;
+    padding-top:10px ;
+    margin-top: 15px;
+    width: 300px;
+}
